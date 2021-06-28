@@ -1,0 +1,83 @@
+﻿/*Fixed header code copied from: https://www.w3schools.com/howto/howto_js_sticky_header.asp
+    but JavaScript seemed problematic, so was abandoned
+    26/6/21 Nev "fixed" header is very temperamental on Android mobile - Chrome v91.0.4472.101
+    it was broken by this 40 character email with the normal font:
+    Xxxxx.Xxxxxxxxxxxxx@education.nsw.gov.au
+    Also broken by long web links - avoided with a short "display text" or small font.
+    If fixed header is broken - delete sections 1 by 1 to find the problem
+*/
+body {
+    margin: 0;
+/*    font-family: Calibri, sans-serif;*/
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+th, td {
+/*    text-align: center;*/
+    padding: 16px;
+    font-size: 18pt;
+    border: 1px solid #000;
+}
+
+.header {
+    position: fixed;
+    text-align: center;
+    font-size: 22pt;
+    width: 100%;
+    padding: 10px 10px;
+    background: #FDBD35;
+    /*    color: #f1f1f1;*/
+}
+
+.content {
+    padding: 16px;
+}
+
+.text-red {
+    color: red;
+}
+
+.h1-18ptBold {
+    text-align: center;
+    font-size: 18pt;
+/*    font-family: Calibri, sans-serif;*/
+/*    margin: 0cm;*/
+    font-weight: bold;
+}
+
+.h2-BlueBG {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    background-color: rgb(65,70,152);
+    font-weight: bold;
+/*    font-family: Calibri;*/
+}
+
+.body-calibri {
+    font-family: Calibri;
+}
+
+.body-purple {
+/*    font-family: Calibri;*/
+    color: #7030A0;
+}
+
+.body-acknowledgement {
+/*    font-family: Calibri;*/
+    font-style: italic;
+    font-size: 9.0pt;
+    color: #595959;
+}
+.body-smallFont {
+        font-family: 'Arial Narrow';
+/*    font-style: italic;*/
+    font-size: 7.0pt;
+/*    color: #595959;*/
+}
+
+

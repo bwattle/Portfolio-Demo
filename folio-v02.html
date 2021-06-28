@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Fixed header code copied from: https://www.w3schools.com/howto/howto_js_sticky_header.asp
+    but JavaScript seemed problematic, so was abandoned.
+    If the user zooms, the header fixing is gone! -->
+<!-- 26/6/21 Nev "fixed" header is very temperamental on Android mobile - Chrome v91.0.4472.101
+    it was broken by this 40 character email with the normal font:
+    Xxxxx.Xxxxxxxxxxxxx@education.nsw.gov.au
+    Also broken by long web links - avoided with a short "display text" or small font.
+    Max recommended image size is 940 pixels. 950 does not break the fixed header, but is almost off the screen.
+    If fixed header is broken - delete sections 1 by 1 to find the problem -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Blackwattle Web template</title>
+    <link rel="icon" href="images/SSC_SmallLogo.png">
+    <link rel="stylesheet" href="main.css">
+    <style type="text/css">
+        body {
+            background-color: rgb(220,250,236); /*light green   */
+        }
+    </style>
+</head>
+<body>
+    <div class="h2-BlueBG" id="A01"></div>
+    <div class="header" id="myHeader">
+        <a href="#A01">Top</a> - <a href="#A02">Anchor2</a> - <a href="#A03">Anchor3</a> - <a href="#A04">Anchor4</a> - 
+            <a href="index.html">Home</a>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <p class="h1-18ptBold">
+        <img src="images/YourLogo-JPG.jpg" alt="Daggy example of a logo" title="Daggy logo" /><br />
+    </p>
+    <p class="h1-18ptBold">
+        My first page
+    </p>
+    <p class="h1-18ptBold">
+        This will start simple!!<br />
+    </p>
+    <div class="content">
+        <a href="index.html">Home</a>
+        <br />
+        <br />
+        <div class="h2-BlueBG">
+            1st heading - Tables, bullets &amp; numbered lists
+        </div>
+        <br />
+        <div class="h1-18ptBold" id="A02"></div>
+        <a href="index.html">Home</a>
+        <br />
+        <br />
+        <div class="h2-BlueBG">
+            2nd heading - but anchor is 4 lines above 
+        </div>
+        <br />
+        <div class="h1-18ptBold" id="A03"></div>
+        <a href="index.html">Home</a>
+        <br />
+        <br />
+        <div class="h2-BlueBG">
+            3rd heading - image optimisation
+        </div>
+        <br />
+        <div class="h1-18ptBold" id="A04"></div>
+        <a href="index.html">Home</a>
+        <br />
+        <br />
+        <div class="h2-BlueBG">
+            4th heading -
+            Website editors (authoring tools)
+        </div>
+        <br />
+        <a href="index.html">Home</a>
+        <br />
+        <div class="body-purple">
+            <br />
+        </div>
+        <div class="h2-BlueBG">
+            End of page
+            - DELETE what you don&#39;t need
+        </div>
+    </div>
+</body>
+</html>
