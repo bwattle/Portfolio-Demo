@@ -1,5 +1,5 @@
 # Portfolio for Your Name
-The website for this site can be viewed at: https://bwattle.github.io/Porfolio/ (you will need to replace this link)
+The website for this site can be viewed at: https://bwattle.github.io/Portfolio/ (you will need to replace this link)
 
 This website displays my work over the 2 years of IPT as well as my skill with web building.
 
